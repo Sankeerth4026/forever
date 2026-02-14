@@ -1,6 +1,5 @@
 @import "tailwindcss";
 
-/* Subtle background drift */
 @keyframes drift {
   0% { transform: translate(0px, 0px); }
   50% { transform: translate(-10px, 10px); }
@@ -10,8 +9,6 @@
 .dark-mist {
   animation: drift 25s ease-in-out infinite;
 }
-
-/* Fade animation */
 @keyframes fadeIn {
   from { opacity: 0; transform: scale(0.96); }
   to { opacity: 1; transform: scale(1); }
@@ -20,7 +17,6 @@
 .animate-fadeIn {
   animation: fadeIn 1s ease forwards;
 }
-/* Zoom in cinematic */
 @keyframes zoomInSlow {
   0% { transform: scale(1); opacity: 0; }
   100% { transform: scale(1.1); opacity: 1; }
@@ -30,7 +26,6 @@
   animation: zoomInSlow 1.2s ease forwards;
 }
 
-/* Fade to black */
 @keyframes fadeToBlack {
   from { opacity: 0; }
   to { opacity: 1; }
@@ -40,7 +35,6 @@
   animation: fadeToBlack 1.5s ease forwards;
 }
 
-/* Floating particles */
 @keyframes floatUp {
   0% { transform: translateY(0px); opacity: 0.6; }
   100% { transform: translateY(-200px); opacity: 0; }
