@@ -9,7 +9,7 @@ export default function Heart({ onClick }) {
 
     setTimeout(() => {
       setRipples((prev) => prev.filter((r) => r !== id));
-    }, 600); // faster ripple lifetime
+    }, 600); 
   };
 
   return (
